@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonJS",
+    "target": "esnext",
+    "baseUrl": "src",
+    "paths": {
+      "MY_LIB/*": ["lib/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+}
